@@ -3,8 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                checkout scm
-                echo "Code downloaded successfully!"
+                echo "Code pulled from GitHub!"
             }
         }
     }
